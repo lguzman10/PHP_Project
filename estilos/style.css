@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;   
+}
+
+form .mb-3 .form-label{
+    margin-top: 10px;
+}
+
+#list-error, #titulo-error, #descripcion-error{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: red;
+}
+
+.alert {
+	padding: 1em;
+	color:#fff;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	font-size: 14px;
+    margin-top: 45px;
+}
+
+.alert.error {
+	background: #F2DEDE;
+	border:1px solid #a94442;
+	color: #a94442;
+}
+
+.alert.success {
+	background: #4CAF50;
+}
+
+.table{
+    margin-top: 50px;
+}
+
+.table .btn-warning{
+    margin-left: 1px;
+}
+
+.table .btn-danger{
+    margin-left: 0px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.buttons .btn-success{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.buttons .form{
+    width: 60%;
+    margin-top: -13px;
+    align-items: flex-end;
+}
+
+.buttons .button{
+
+}
+.card {
+    position: relative;
+    display: inline-block;
+}
+  
+.card::before {
+    background-color: #1d8b48;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    content: 'Importar datos desde excel'; /* testo por defecto */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+  
+.card input[type="file"] {
+    opacity: 0;
+    width: 210px;
+    height: 40px;
+    display: inline-block;
+    cursor: pointer;
+}

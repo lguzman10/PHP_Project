@@ -1,0 +1,28 @@
+/* Estilos, página 404.html */
+
+body{
+    background-color: rgb(250, 195, 13);
+}
+.contenedor{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: 350px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.error{
+    font-size: 50px;
+    font-weight: 700;
+    align-self: center;
+}
+
+a{
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 35px;
+}
+
